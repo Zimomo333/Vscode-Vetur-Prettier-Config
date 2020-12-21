@@ -66,7 +66,7 @@ semi: false # 不已分号结尾
 },
 "vetur.format.defaultFormatterOptions": {   // 使用prettier格式化vue文件中<script>
     "prettier": {
-        "useEditorConfig": true // 不启用配置文件
+        "useEditorConfig": true, // 不启用配置文件
         "arrowParens": "avoid",  // 箭头函数单个参数不加括号
         "singleQuote": true,    // 单引号
         "trailingComma": "none",   // 无尾随逗号
