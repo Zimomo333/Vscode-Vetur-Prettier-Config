@@ -1,0 +1,12 @@
+{
+    "editor.formatOnSave": true, // 开启保存后格式化
+    // Prettier js文件格式化配置
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode" // 使用prettier格式化js文件
+    },
+    // Vetur vue文件格式化配置
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "vetur.format.defaultFormatter.html": "prettyhtml"
+}
